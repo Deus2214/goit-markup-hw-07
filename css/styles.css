@@ -238,9 +238,7 @@ li a:focus {
   border: transparent;
 }
 
-.main-title {
-  /* Особливості */
-}
+
 .list-2 {
   display: flex;
   gap: 30px;
@@ -646,8 +644,7 @@ li a:focus {
   width: 170px;
   height: 92px;
 }
-.always-clients {
-}
+
 ul {
   list-style: none;
   margin: 0;
