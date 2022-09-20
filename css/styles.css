@@ -1063,11 +1063,16 @@ textarea {
   border-image: initial;
   padding: 2px;
 }
-.textarea:focus, .textarea:hover{
+.textarea:focus{
   border: 1px solid #2196f3;
   border-radius: 4px;
   cursor: pointer;
 }
+
+.textarea:hover{
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  cursor: pointer;}
 .email-icon-2 {
   margin-left: 10px;
   fill: #f5f4fa;
