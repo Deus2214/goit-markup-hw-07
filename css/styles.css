@@ -1,0 +1,1105 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root{
+--primary-text-color: #fffbfb;
+--section-title-colot: #080505;
+--accent-color: #2196f3;
+--accent-white-color: #ffffff;
+}
+
+.head {
+  text-decoration: none;
+}
+.body {
+  background-color: #fff;
+  font-family: "Roboto";
+
+  text-decoration: none;
+}
+
+.header {
+  /* top line bg */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #ffffff;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.list-display {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+.logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-right: 91px;
+
+  display: block;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.logo-1 {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+
+li a:hover {
+  color: #2196f3;
+}
+li a:focus {
+  color: #2196f3;
+}
+.item {
+  /* Студія */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  margin-top: 28px;
+  background: #2196f3;
+  border-radius: 2px;
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+.item-1 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  list-style: none;
+  color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-2 {
+  /* Контакти */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-self: center;
+  color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item-3 {
+  /* info@devstudio.com */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.item-4 {
+  /* +38 096 111 11 11 */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  color: #757575;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tell-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.section-1 {
+  /* Bg */
+  padding: 200px 0;
+  text-align: center;
+  background: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img.jpg);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+}
+.our-team {
+  padding: 94px 0;
+  background-color: #f5f4fa;
+}
+.working {
+  padding: 94px 0;
+}
+.title {
+  /* Ефективні рішення для вашого бізнесу */
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.main-title {
+  /* Особливості */
+}
+.list-2 {
+  display: flex;
+  gap: 30px;
+}
+.list-item {
+  width: 270px;
+}
+.icon-work {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.uppertitle {
+  /* УВАГА ДО ДЕТАЛЕЙ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #212121;
+}
+
+.uppertitle-2 {
+  /* ПУНКТУАЛЬНІСТЬ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #212121;
+}
+
+.uppertitle-3 {
+  /* ПЛАНУВАННЯ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #212121;
+}
+
+.uppertitle-4 {
+  /* СУЧАСНІ ТЕХНОЛОГІЇ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #212121;
+}
+.text {
+  /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.text-2 {
+  /* Так само консультація з широким активом значною мірою зумовлює. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-3 {
+  /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.section-text {
+  padding-bottom: 94px;
+}
+.paragraph {
+  /* Чим ми займаємося */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: #212121;
+}
+.image-list {
+  display: flex;
+  gap: 30px;
+}
+
+.product-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.article-title {
+  position: absolute;
+  bottom: 0%;
+  top: 1430px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03cm;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+
+.img-1 {
+  /* img */
+
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+.img-2 {
+  /* img */
+
+  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.img-3 {
+  /* img */
+
+  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.maintitle-2 {
+  /* Наша команда */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+
+  color: #212121;
+}
+.command-list {
+  display: flex;
+  gap: 30px;
+}
+.img-5 {
+  /* img */
+
+  background: url(2968.jpg);
+  border-radius: 0px;
+}
+
+.img-6 {
+  /* img */
+  background: url(5844.jpg);
+  border-radius: 0px;
+}
+.img-7 {
+  background: url(16166.jpg);
+  border-radius: 0px;
+}
+
+.img-8 {
+  /* img */
+
+  background: url(4853.jpg);
+  border-radius: 0px;
+}
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-comand {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #f5f4fa;
+}
+.icons-svg {
+  color: #757575;
+}
+
+.contacts-main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-title {
+  /* Ігор Дем'яненко */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-title2 {
+  /* Ольга Рєпіна */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-title3 {
+  /* Микола Тарасов */
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-title4 {
+  /* Михайло Єрмаков */
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.work-1 {
+  /* Product Designer */
+
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: auto;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-2 {
+  /* Frontend Developer */
+
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: auto;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-3 {
+  /* Marketing */
+
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: auto;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-4 {
+  /* UI Designer */
+
+  line-height: 1.2;
+  /* identical to box height */
+  margin-bottom: auto;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.social-icon-3 {
+  fill: #f5f4fa;
+}
+
+.social-icon:hover {
+  fill: #f5f4fa;
+}
+
+.social-icon:focus {
+  fill: #f5f4fa;
+}
+.clients-team {
+  padding: 94px 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-text-color);
+  border-radius: 50%;
+  fill: #afb1b8;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-2 {
+  fill: #afb1b8;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  border: 1px solid #afb1b8;
+}
+.social-link:hover {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+.social-link:focus {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+.social-link-2:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.social-link-2:focus {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.clients {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.brand-icons:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.brand-icon {
+  width: 170px;
+  height: 92px;
+}
+.always-clients {
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.footer {
+  /* Footer bg */
+  width: auto;
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-box {
+  margin-left: 70px;
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo12 {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo2 {
+  color: #ffffff;
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  /* м. Київ, пр-т Лесі Українки, 26 */
+
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 9px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tell {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list {
+  list-style: none;
+}
+.list-group:not(:first-child) {
+  margin-top: 9px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.social-link-3 {
+  fill: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-3:hover {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+.social-link-3:focus {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+
+.subscribe-box {
+  margin-left: auto;
+}
+
+.subscribe {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form-text {
+  display: flex;
+  gap: 12px;
+}
+
+.form-text input {
+  background-color: var(--brand-color);
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.subscribe-button {
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  width: 200px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 28px;
+  padding-right: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  border-color: var(--accent-color);
+  transition-property: cursor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-mail {
+  fill: var(--primary-text-color);
+  width: 24px;
+  right: 24px;
+  margin-left: 12px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: inherit;
+}
+.modal {
+  padding: 40px;
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-text-color);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: transparent;
+  fill: #2196f3;
+}
+.btn-exit:hover,
+.btn-exit:focus {
+  fill: #2196f3;
+}
+
+.register-form-title {
+  display: block;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.register-form-label {
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+}
+.register-form-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+  padding-right: 42px;
+  transition-property: border, border-radius, cursor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: transparent;
+}
+
+.input-span {
+  position: relative;
+}
+
+.register-form-input:hover,
+.register-form-input:focus {
+  border-color: #2196f3;
+}
+
+.register-form-icon {
+  position: absolute;
+  bottom: 11px;
+
+  left: 12px;
+  transform: translateY(-50%);
+  top: 50%;
+  fill: #212121;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.register-form-input:focus + .register-form-icon {
+  fill: #2196f3;
+}
+.register-form-input:hover + .register-form-icon {
+  fill: #2196f3;
+}
+
+.register-form-agreement {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.register-form-btn {
+  color: #ffffff;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  border: var(--accent-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.register-form-field {
+  position: relative;
+  display: block;
+}
+
+.register-form-message {
+  width: 100%;
+  height: 130px;
+  padding-inline-start: 18px;
+
+  resize: none;
+  outline: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+textarea {
+  writing-mode: horizontal-tb !important;
+ 
+  font-family: monospace;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background-color: field;
+  column-count: initial !important;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding: 2px;
+}
+.textarea:focus, .textarea:hover{
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.email-icon-2 {
+  margin-left: 10px;
+  fill: #f5f4fa;
+}
+.check-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #757575;
+  border-radius: 2px;
+  margin-right: 9px;
+}
+.register-form-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+}
+.register-form-checkbox:checked + .check-icon {
+  background-color: #2196f3;
+  background-image: url(../icons/icon\ check.svg);
+  background-size: contain;
+  margin-right: 9px;
+}
+.register-form-link {
+  color: #2196f3;
+}
+.personal-data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.feedback {
+  margin-bottom: 20px;
+}
