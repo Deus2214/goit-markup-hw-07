@@ -53,19 +53,15 @@ ul {
 .logo {
   /* WebStudio */
   color: #2196f3;
-  color: #2196f3;
   font-family: "Raleway";
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   margin-right: 91px;
-
   display: block;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-  /* identical to box height */
+
 }
 .logo-1 {
   color: #000000;

@@ -22,6 +22,27 @@ html {
 
   text-decoration: none;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 /* Header */
 .header {
   
@@ -141,8 +162,8 @@ li a:focus {
 } 
 
 
-/* Section_order */
-.section__main {
+/* Section__title */
+.section__title {
 
   padding: 200px 0;
   text-align: center;
@@ -211,20 +232,15 @@ li a:focus {
   color: #212121;
 }
 
-.list-2 {
+.working__list {
   display: flex;
   gap: 30px;
 }
-.list-item {
+.working__item {
   width: 270px;
 }
-.icon-work {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-.icon-list {
+
+.working__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +252,7 @@ li a:focus {
 
 
 
-.text {
+.working__text {
   font-size: 14px;
   line-height: 1.2;
   /* or 171% */
@@ -251,13 +267,13 @@ li a:focus {
 
 
 
-
+/* Products */
    
-.section-text {
+.section__products {
   padding-bottom: 94px;
 }
-.paragraph {
-  /* Чим ми займаємося */
+.products__paragraph {
+  
 
   font-weight: 700;
   font-size: 36px;
@@ -267,20 +283,23 @@ li a:focus {
   margin-bottom: 50px;
   color: #212121;
 }
-.image-list {
+.products__images {
   display: flex;
   gap: 30px;
 }
 
-.product-box {
+
+
+
+.products__box{
   display: flex;
   justify-content: center;
-  position: relative;
+ 
 }
-.article-title {
+.products__title {
   position: absolute;
   bottom: 0%;
-  top: 1430px;
+  top: 1423px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -298,26 +317,26 @@ li a:focus {
   color: #ffffff;
 }
 
-.img-1 {
-  /* img */
+.products__img-1 {
 
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
-.img-2 {
-  /* img */
 
+.products__img-2 {
+  
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
-.img-3 {
-  /* img */
 
+.products__img-3 {
+ 
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+/* Section__Our team */
 
-.maintitle-2 {
-  /* Наша команда */
 
+.our-team__title {
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.4;
@@ -327,34 +346,34 @@ li a:focus {
 
   color: #212121;
 }
-.command-list {
+.our-team__list {
   display: flex;
   gap: 30px;
 }
-.img-5 {
-  /* img */
+.our-team__img-5 {
+  
 
   background: url(2968.jpg);
   border-radius: 0px;
 }
 
-.img-6 {
+.our-team__img-6 {
   /* img */
   background: url(5844.jpg);
   border-radius: 0px;
 }
-.img-7 {
+.our-team__img-7 {
   background: url(16166.jpg);
   border-radius: 0px;
 }
 
-.img-8 {
+.our-team__img-8 {
   /* img */
 
   background: url(4853.jpg);
   border-radius: 0px;
 }
-.social-list {
+.our-team__social {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -363,14 +382,12 @@ li a:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-comand {
+.our-team__command {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #f5f4fa;
 }
-.icons-svg {
-  color: #757575;
-}
+
 
 .contacts-main {
   padding-top: 30px;
@@ -380,26 +397,12 @@ li a:focus {
   padding: 94px 0;
   background-color: #f5f4fa;
 }
-.section-title {
-  /* Ігор Дем'яненко */
+.our-team__name {
+  
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height */
-  margin-bottom: 12px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.section-title2 {
-  /* Ольга Рєпіна */
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  /* identical to box height */
   margin-bottom: 12px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -407,76 +410,17 @@ li a:focus {
   color: #212121;
 }
 
-.section-title3 {
-  /* Микола Тарасов */
-  margin-bottom: 12px;
-  font-weight: 500;
-  font-size: 16px;
+
+.our-team__work {
   line-height: 1.2;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.section-title4 {
-  /* Михайло Єрмаков */
-  margin-bottom: 12px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.work-1 {
-  /* Product Designer */
-
-  line-height: 1.2;
-  /* identical to box height */
   margin-bottom: auto;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.work-2 {
-  /* Frontend Developer */
 
-  line-height: 1.2;
-  /* identical to box height */
-  margin-bottom: auto;
-  text-align: center;
-  letter-spacing: 0.03em;
 
-  color: #757575;
-}
-.work-3 {
-  /* Marketing */
-
-  line-height: 1.2;
-  /* identical to box height */
-  margin-bottom: auto;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.work-4 {
-  /* UI Designer */
-
-  line-height: 1.2;
-  /* identical to box height */
-  margin-bottom: auto;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
 
 .social-icon-3 {
   fill: #f5f4fa;
@@ -506,7 +450,41 @@ li a:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-2 {
+
+.social-link:hover {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+.social-link:focus {
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+
+
+
+
+
+/* Section__clients */
+
+
+.clients__tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients__icons {
+  display: flex;
+  gap: 30px;
+}
+.clients__icon {
+  width: 170px;
+  height: 92px;
+}
+.clients__link {
   fill: #afb1b8;
   width: 100%;
   height: 100%;
@@ -519,66 +497,17 @@ li a:focus {
 
   border: 1px solid #afb1b8;
 }
-.social-link:hover {
-  fill: #f5f4fa;
-  background-color: #2196f3;
-}
-.social-link:focus {
-  fill: #f5f4fa;
-  background-color: #2196f3;
-}
-.social-link-2:hover {
+.clients__link:hover {
   fill: #2196f3;
   border-color: #2196f3;
 }
-.social-link-2:focus {
-  fill: #2196f3;
-  border-color: #2196f3;
-}
-.clients {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.brand-icons {
-  display: flex;
-  gap: 30px;
-}
-
-.brand-icons:hover {
+.clients__link:focus {
   fill: #2196f3;
   border-color: #2196f3;
 }
 
-.brand-icon {
-  width: 170px;
-  height: 92px;
-}
+/* Footer */
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-
-user agent stylesheet ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
 .footer {
   /* Footer bg */
   width: auto;
@@ -588,11 +517,11 @@ user agent stylesheet ul {
   margin-left: auto;
   margin-right: auto;
 }
-.footer-box {
+.footer__box {
   margin-left: 70px;
 }
 
-.footer-text {
+.footer__text {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -602,13 +531,13 @@ user agent stylesheet ul {
   color: white;
   margin-bottom: 20px;
 }
-.footer-icons {
+.footer__icons {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.logo12 {
+.footer__logo {
   text-decoration: none;
   font-weight: 700;
   font-family: "Raleway";
@@ -616,14 +545,12 @@ user agent stylesheet ul {
   line-height: 1.5;
   display: block;
   margin-bottom: 20px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 
   color: #2196f3;
 }
 
-.logo2 {
+.logo__light {
   color: #ffffff;
   text-decoration: none;
 }
@@ -632,14 +559,14 @@ user agent stylesheet ul {
 }
 
 .address-list {
-  /* м. Київ, пр-т Лесі Українки, 26 */
+
 
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
   line-height: 1.2;
   margin-bottom: 9px;
-  /* or 171% */
+
 
   letter-spacing: 0.03em;
 
@@ -649,7 +576,7 @@ user agent stylesheet ul {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.2;
-  /* or 171% */
+
 
   letter-spacing: 0.03em;
 
@@ -663,7 +590,7 @@ user agent stylesheet ul {
 
   font-size: 14px;
   line-height: 1.2;
-  /* or 171% */
+
 
   letter-spacing: 0.03em;
 
@@ -678,11 +605,11 @@ user agent stylesheet ul {
 .list-group:not(:first-child) {
   margin-top: 9px;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.social-link-3 {
+.footer__link {
   fill: #f5f4fa;
   display: flex;
   align-items: center;
@@ -695,18 +622,21 @@ user agent stylesheet ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-3:hover {
+.footer__link:hover {
   fill: #f5f4fa;
   background-color: #2196f3;
 }
-.social-link-3:focus {
+.footer__link:focus {
   fill: #f5f4fa;
   background-color: #2196f3;
 }
 
-.subscribe-box {
-  margin-left: auto;
-}
+
+
+/* footer__site */
+.footer__site {
+  margin-left: auto;}
+
 
 .subscribe {
   color: var(--primary-text-color);
@@ -770,13 +700,8 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-mail {
-  fill: var(--primary-text-color);
-  width: 24px;
-  right: 24px;
-  margin-left: 12px;
-}
 
+/* Modal Form */
 .backdrop {
   position: fixed;
   top: 0;
@@ -792,6 +717,8 @@ textarea {
   pointer-events: none;
   visibility: inherit;
 }
+
+
 .modal {
   padding: 40px;
   position: absolute;
