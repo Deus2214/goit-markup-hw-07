@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
@@ -8,7 +8,7 @@ html {
 }
 
 .body {
-  /* Портфоліо */
+
   font-family: "Roboto";
 
   text-decoration: none;
@@ -16,7 +16,7 @@ html {
   background: #ffffff;
 }
 .header {
-  /* top line bg */
+  
   padding-top: 25px;
   padding-bottom: 25px;
   text-decoration: none;
@@ -35,13 +35,14 @@ html {
   align-items: center;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 
 /* Navigation */
-.nav__display {
+/* .nav__display {
   display: flex;
   gap: 50px;
+  margin-left: auto;
 }
 
 .list {
@@ -54,7 +55,7 @@ ul {
 }
 
 .logo {
-  /* WebStudio */
+  
   color: #2196f3;
   font-family: "Raleway";
   text-decoration: none;
@@ -73,7 +74,7 @@ ul {
 }
 
 .nav__portholio {
-  /* Студія */
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -113,7 +114,7 @@ ul {
    cursor: pointer;}
 
 .item-2 {
-  /* Контакти */
+  
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -131,7 +132,7 @@ ul {
   fill: currentColor;
 }
 .nav__mail {
-  /* info@devstudio.com */
+  
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -151,7 +152,7 @@ ul {
 }
 
 .nav__tellefon {
-  /* +38 096 111 11 11 */
+  
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -164,11 +165,11 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 250ms;
-}
+} */
 
 
 /* Section__BTN */
-.section {
+/* .section {
   margin: 94px 94px;
 }
 .filters {
@@ -238,10 +239,10 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
+} */
 
 /* Section group */
-.group__filters {
+/* .group__filters {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -328,71 +329,70 @@ a {
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
 }
 .img-1 {
-  /* img */
+  
 
   background: url(portfolio1.jpg);
 }
 .img-2 {
-  /* img */
+ 
 
   background: url(portfolio2.jpg);
 }
 .img-3 {
-  /* img */
+  
 
   background: url(portfolio-1.jpg);
 }
 .img-4 {
-  /* img */
+  
 
   background: url(portfolio-2.jpg);
 }
 .img-5 {
-  /* img */
+
 
   background: url(portfolio5.jpg);
 }
 .img-6 {
-  /* img */
+  
 
   background: url(111.jpg);
 }
 .img-7 {
-  /* img */
+ 
 
   background: url(portfolio7.jpg);
 }
 .img-8 {
-  /* img */
-
+  
   background: url(portfolio8.jpg);
 }
 
 .img-9 {
-  /* img */
+  
 
   background: url(2910404.jpg);
 }
 
 .group__name {
-  /* Технокряк */
+ 
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
+  
 
   letter-spacing: 0.06em;
 
   color: #212121;
 }
 .group__name-2 {
-  /* Постер New Orlean vs Golden Star */
+  
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
+  
   margin-bottom: 4px;
   letter-spacing: 0.06em;
 
@@ -408,20 +408,20 @@ a {
   border-bottom: 1px solid  rgb(240, 234, 234);
 }
 .text {
-  /* Веб-сайт */
+ 
 
   font-weight: 400;
 
   line-height: 1.2;
-  /* identical to box height, or 188% */
+  
 
   letter-spacing: 0.03em;
 
   color: #757575;
-}
+} */
 
 /* Footer */
-.footer {
+/* .footer {
   width: auto;
   background: #2f303a;
   padding-top: 60px;
@@ -564,7 +564,7 @@ a {
   background-color: #2196f3;
 }
 
-/* footer__site */
+
 .footer__site {
   margin-left: auto;
 }
@@ -641,4 +641,5 @@ textarea {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}/*# sourceMappingURL=footers.css.map */
+} */
+
