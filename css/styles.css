@@ -1,4 +1,4 @@
-/* html {
+ /* html {
   box-sizing: border-box;
 }
 *,
@@ -11,8 +11,8 @@
 --section-title-colot: #080505;
 --accent-color: #2196f3;
 --accent-white-color: #ffffff;
-}
-.head {
+} */
+/* .head {
   text-decoration: none;
 }
 .body {
@@ -30,7 +30,7 @@ ul {
 ::after,
 ::before {
   box-sizing: border-box;
-} */
+} 
 
 user agent stylesheet ul {
   display: block;
@@ -40,9 +40,8 @@ user agent stylesheet ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-}
+} */
 
-/* Header */
 /* .header {
   
   padding-top: 25px;
@@ -60,9 +59,9 @@ user agent stylesheet ul {
   align-items: center;
   display: flex;
   justify-content: center;
-} */
-/* Misc */
-/* ul {
+}  */
+ 
+ /* ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -74,10 +73,10 @@ h4,
 h5,
 p {
   margin: 0;
-} */
+}  */
 
-/* Logo-main*/
-/* .logo {
+ /* Logo-main
+/.logo {
   color: #2196f3;
   font-family: "Raleway";
   text-decoration: none;
@@ -98,12 +97,16 @@ p {
   font-family: "Raleway";
 } */
 
-li a:hover {
+/* li a:hover {
   color: #2196f3;
 }
 li a:focus {
   color: #2196f3;
-}
+} 
+ */
+
+
+
 /* Навігація */
 /* .nav__studio{
   
@@ -507,7 +510,7 @@ li a:focus {
 
 /* Footer */
 
-.footer {
+/* .footer {
   
   width: auto;
   background: #2f303a;
@@ -632,7 +635,7 @@ li a:focus {
 
 
 
-/* footer__site */
+
 .footer__site {
   margin-left: auto;}
 
@@ -697,7 +700,7 @@ textarea {
   transition-property: cursor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 /* Modal Form */
