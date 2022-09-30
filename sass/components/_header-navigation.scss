@@ -4,13 +4,40 @@
     padding-bottom: 25px;
     background: #ffffff;
   }
-  .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
+
+  .container {      
+ max-width: 1600px;
+ padding-left: 15px;
+ padding-right: 15px;
+
+ margin-left: auto;
+ margin-right: auto; 
+
+
+     //tablet-768px
+    @media screen and (min-width: 768px){
+      max-width: 768px;
+    }
+
+
+
+     // mobile -480px
+    @media screen and (min-width: 480px) {
+     max-width: 480px;
+      
+    }
+
+  
+ // desctop-1200px
+  @media screen and (min-width: 1600px) {
+
+    
+    max-width:  1600px;
+   }
+  
   }
+
   .header-container {
     align-items: center;
     display: flex;
