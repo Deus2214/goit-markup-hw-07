@@ -6,9 +6,30 @@
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+   
+  
+ 
+  @media screen and (min-width: 1200px) {
+flex-wrap: nowrap;
   }
+}
   .footer__box {
     margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+   
+  
+ 
+  @media screen and (min-width: 1200px) {
+flex-wrap: nowrap;
+    
+  }
   }
   
   .footer__text {
@@ -20,6 +41,7 @@
     text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
+ padding-left: 20px;
   }
   .footer__icons {
     display: flex;
