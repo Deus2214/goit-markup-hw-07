@@ -1,9 +1,14 @@
 .section__products {
     padding-bottom: 94px;
+    display: flex;
+
+  justify-content: center;
+  
   }
   .products__paragraph {
     
-  
+   
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.4;
@@ -11,13 +16,24 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     color: #212121;
+
+ 
   }
+  
   .products__images {
+     
+    
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+  
+
+  @media screen and (min-width: 1200px) {
     display: flex;
-    gap: 30px;
-  }
-  
-  
+    flex-wrap: nowrap;
+
+}
+}
   
   
   .products__box{
@@ -26,11 +42,9 @@
    
   }
   .products__title {
-    position: absolute;
-    bottom: 0%;
-    top: 1423px;
-  
-    font-family: "Roboto";
+    position:absolute;
+    bottom: 27px;
+    top: 1425px;  
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -44,7 +58,17 @@
     padding-top: 27px;
     background: rgba(47, 48, 58, 0.8);
     color: #ffffff;
-  }
+
+    
+      
+     
+    
+   
+    @media screen and (min-width: 1200px) {
+  flex-wrap: nowrap;
+      
+    }
+}
   
   .products__img-1 {
   

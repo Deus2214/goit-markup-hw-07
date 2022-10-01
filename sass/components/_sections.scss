@@ -16,170 +16,44 @@
     max-width: 1600px;
     height: 600px;
    
-   
-    // mobile -480px
-  @media screen and (min-width: 480px) {
-   
-    max-width: 480px;
-   max-height: 400px;
-   height: 400px;
-   text-align: center;
-   background: #2f303a;
-   background-image: linear-gradient(
-       to right,
-       rgba(47, 48, 58, 0.4),
-       rgba(47, 48, 58, 0.4)
-     ),
-     url(../images/Img.jpg);
-   background-repeat: no-repeat;
-
-   margin-left: auto;
-   margin-right: auto;
-   background-position: center;
-  max-width: 480px;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  background-color: #2f303a;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   
-    
-  }
-
-     //tablet-768px
-  @media screen and (min-width: 768px){
-    max-width: 768px;
-    max-height: 400px;
-  height: 400px;
-    height: 400px;
-    text-align: center;
-    background: #2f303a;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/Img.jpg);
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
 
 
-  }
-
-
-
-
-
-
-// desctop-1600px
-@media screen and (min-width: 1500px) {
-
-  
-  max-width:  1600px;
-  max-height: 600px;
-  padding: 200px 0;
-  text-align: center;
-    background: #2f303a;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/Img.jpg);
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    height: 600px;
-
- }
-  }
-  .button {
-    color: #fff;
-    background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-  
-    letter-spacing: 0.06em;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 4px;
-    border: transparent;
-
-
-
-    // mobile -480px
-@media screen and (min-width: 480px) {
-  max-width: 480px;
- 
-  // font-weight: 700;
-  // font-size: 16px;
-  // line-height: 30px;
-  // letter-spacing: 0.06em;
-  
-  // padding: 10px 32px;
-
-
-  background-color: #2196f3;
-  color: #fff;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: .06em;
-  padding: 7px 29px;
-  width: 216px;
-  min-height: 50px;
-  border-radius: 4px;
-  border: #2196f3;
-  -webkit-box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
 }
 
 
 
- //tablet-768px
- @media screen and (min-width: 768px){
-  max-width: 768px;
+.button {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
+  letter-spacing: 0.06em;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  display: inline-block;
   padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
+
+
+
  
 }
+ 
 
+  
 
 
  
 
 
-// desctop-1600px
-@media screen and (min-width: 1600px) {
 
-
-  max-width:  1600px;
- 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-   
-  }
+  
   .section__main__title{
   
     font-weight: 900;
@@ -193,57 +67,5 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
- 
 
-
-
-   // mobile -480px
-  @media screen and (min-width: 480px) {
-    max-width: 480px;
-    max-height: 400px;
-    font-size: 26px;
-    line-height: 42px;
-    width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin-bottom: 30px;
-  }
-
-    //tablet-768px
-  @media screen and (min-width: 768px){
-    max-width: 768px;
-    max-height: 400px;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 42px;
-    width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin-bottom: 30px;
-  }
-
-// desctop-1600px
-@media screen and (min-width: 1600px) {
-
-  
-  max-width:  1600px;
-  max-height: 600px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  width: 690px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: 30px;
- }
 }

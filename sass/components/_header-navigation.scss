@@ -7,7 +7,7 @@
 
 
   .container {      
- max-width: 1600px;
+
  padding-left: 15px;
  padding-right: 15px;
 
@@ -15,37 +15,8 @@
  margin-right: auto; 
    
  
- // mobile -480px
- @media screen and (min-width: 480px) {
-     max-width: 480px;
-     padding-left: 15px;
- padding-right: 15px;
-
- margin-left: auto;
- margin-right: auto;
-    }
-
-     //tablet-768px
-     @media screen and (min-width: 768px){
-      max-width: 768px;
-      padding-left: 15px;
- padding-right: 15px;
-
- margin-left: auto;
- margin-right: auto;
-    }
- // desctop-1600px
- @media screen and (min-width: 1600px) {
-
-    
-    max-width:  1600px;
-    padding-left: 15px;
- padding-right: 15px;
-
- margin-left: auto;
- margin-right: auto;
    }
-  }
+
 
   .header-container {
     align-items: center;
