@@ -177,19 +177,31 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1600px) {
   .container {
     max-width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -728,11 +740,10 @@ textarea {
   max-width: 1600px;
   height: 600px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .section__title {
-    max-width: 768px;
+    max-width: 480px;
     max-height: 400px;
-    height: 400px;
     height: 400px;
     text-align: center;
     background: #2f303a;
@@ -742,12 +753,20 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     background-position: center;
+    max-width: 480px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-color: #2f303a;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .section__title {
-    max-width: 480px;
+    max-width: 768px;
     max-height: 400px;
+    height: 400px;
     height: 400px;
     text-align: center;
     background: #2f303a;
@@ -794,21 +813,31 @@ textarea {
   border-radius: 4px;
   border: transparent;
 }
-@media screen and (min-width: 768px) {
-  .button {
-    max-width: 768px;
-    max-height: 400px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    padding: 10px 32px;
-  }
-}
 @media screen and (min-width: 480px) {
   .button {
     max-width: 480px;
-    max-height: 400px;
+    background-color: #2196f3;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    padding: 7px 29px;
+    width: 216px;
+    min-height: 50px;
+    border-radius: 4px;
+    border: #2196f3;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    max-width: 768px;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -819,7 +848,6 @@ textarea {
 @media screen and (min-width: 1600px) {
   .button {
     max-width: 1600px;
-    max-height: 600px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -840,11 +868,10 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .section__main__title {
-    max-width: 768px;
+    max-width: 480px;
     max-height: 400px;
-    font-weight: 900;
     font-size: 26px;
     line-height: 42px;
     width: 360px;
@@ -856,10 +883,11 @@ textarea {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .section__main__title {
-    max-width: 480px;
+    max-width: 768px;
     max-height: 400px;
+    font-weight: 900;
     font-size: 26px;
     line-height: 42px;
     width: 360px;
@@ -902,6 +930,35 @@ textarea {
   margin-bottom: 12px;
   color: #212121;
 }
+@media screen and (min-width: 480px) {
+  .working__uppertitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 270px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__uppertitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 115px;
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .working__uppertitle {
+    width: 270px;
+  }
+}
 
 .working__list {
   display: -webkit-box;
@@ -912,6 +969,21 @@ textarea {
 
 .working__item {
   width: 270px;
+}
+@media screen and (min-width: 480px) {
+  .working__item {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__item {
+    width: 356px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .working__item {
+    width: 270px;
+  }
 }
 
 .working__icon {
@@ -929,6 +1001,33 @@ textarea {
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 480px) {
+  .working__icon {
+    max-width: 480px;
+    width: 450px;
+    text-align: center;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__icon {
+    width: 356px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .working__icon {
+    width: 270px;
+  }
+}
 
 .working__text {
   font-size: 14px;
@@ -936,6 +1035,22 @@ textarea {
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (min-width: 480px) {
+  .working__text {
+    width: 450px;
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__text {
+    width: 356px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .working__text {
+    width: 270px;
+  }
 }
 
 html {

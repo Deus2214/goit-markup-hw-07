@@ -11,6 +11,42 @@
     text-transform: uppercase;
     margin-bottom: 12px;
     color: #212121;
+  
+  
+  
+  
+    @media screen and (min-width: 480px) {
+     
+    margin-left: auto;
+    margin-right: auto;
+     padding-left: 60px;
+     padding-right: 60px;
+      width: 270px;
+      font-weight: 700;
+      font-size: 14px;
+     line-height: 16px;
+    text-align: center;
+   letter-spacing: 0.03em;
+text-transform: uppercase;
+    }
+
+
+
+      @media screen and (min-width: 768px){
+
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 115px;
+width: 354px;
+
+      }
+
+
+
+      @media screen and (min-width: 1500px){
+      width: 270px;
+      }
   }
   
   .working__list {
@@ -19,7 +55,25 @@
   }
   .working__item {
     width: 270px;
-  }
+    
+    @media screen and (min-width: 480px) {
+      width: 450px;
+     
+    }
+
+
+
+      @media screen and (min-width: 768px){
+width: 356px;
+      }
+
+
+
+      @media screen and (min-width: 1500px){
+      width: 270px;
+      }
+
+    }
   
   .working__icon {
     display: flex;
@@ -29,6 +83,31 @@
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+      max-width: 480px;
+      width: 450px;
+      text-align: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+    
+    }
+
+
+
+      @media screen and (min-width: 768px){
+width: 356px;
+
+      }
+
+
+
+      @media screen and (min-width: 1500px){
+      width: 270px;
+      }
   }
   
   
@@ -39,5 +118,22 @@
     /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
+
+    @media screen and (min-width: 480px) {
+      width: 450px;
+      display: block;
+    }
+
+
+
+      @media screen and (min-width: 768px){
+width: 356px;
+      }
+
+
+
+      @media screen and (min-width: 1500px){
+      width: 270px;
+      }
   }
   
